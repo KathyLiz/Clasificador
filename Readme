@@ -1,0 +1,24 @@
+Programa  Clasificador de Sentimientos
+
+Este proyecto está desarrollado en dos lenguajes de programación:
+  1. Perl: Para el procesamiento de texto 
+           Uso de expresiones regulares para el procesameinto de lenguaje natural y para generar archivos con la extensión ".arff"
+  2. Java: Para la implementación de clasificadores de datos, es requermiento obligatorio importar la libreria WEKA
+  
+Instalación: 
+Pre requisito: Instalar Strawberry Perl (http://strawberryperl.com/)
+
+Perl
+  1. Carpeta Ejecutables: existen 3 archivos con la extensión ".pl"
+      1.1 procesador_clasificado 
+      1.2 Procesador_texto_crudo (Requiere que se ingrese el nombre del archivo que se va a procesar, ej: "data.txt")
+      1.3 procesador_sin_resultado
+  2. Los archivos y los programas con extensión ".pl" deben estar ubicados en la misma carpeta donde se ejecutan.
+  3. Para ejecutar un archivo perl: 
+      3.1 Abrir la linea de comandos 
+      3.2 Ubicarse en la carpeta donde están todos los archivos .pl y los de datos
+      3.3 para ejecutar: "perl nombre_archiv.pl"
+Java
+  1. Importar el proyecto "CLasificardor" en un IDE de programación java (Eclipse o Netbeans)
+  2. Añadir la libreria weka
+  3.Verificar las rutas de los archivos que se toman y de los que se generan.
